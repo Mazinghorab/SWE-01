@@ -5,7 +5,7 @@ box "Actors"
     actor ":Picker" as Picker
 end box
 
-box "System"
+box "Controller boundry"
     participant ":PickerDeviceUI" as UI
     participant ":PickingController" as PC
     participant ":RouteOptimizer" as RO
