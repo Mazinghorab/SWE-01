@@ -5,7 +5,7 @@ box "Actors"
 actor ":WarehouseManager" as Manager
 end box
 
-box "System"
+box "Controller boundry"
 participant ":ProcurementUI" as UI
 participant ":ProcurementController" as PC
 participant ":SupplierSelector" as SS
