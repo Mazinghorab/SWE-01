@@ -5,7 +5,7 @@ box "Actors"
     actor ":WarehouseManager" as Manager
 end box
 
-box "System"
+box "Controller boundry"
     participant ":DashboardUI" as UI
     participant ":OccupancyMonitor" as OM
     participant ":AlertService" as AS
