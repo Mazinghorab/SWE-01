@@ -5,7 +5,7 @@ box "Actors"
     actor ":FloorStaff" as Staff
 end box
 
-box "System"
+box "Controller boundry"
     participant ":FloorStaffUI" as UI
     participant ":OrderController" as OC
     participant ":FulfillmentStateMachine" as SM
