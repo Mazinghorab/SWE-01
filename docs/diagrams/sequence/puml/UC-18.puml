@@ -7,7 +7,7 @@ box "Actors"
 actor ":Supplier" as Supplier
 end box
 
-box "System"
+box "Controller boundry"
 participant ":SupplierPortal" as SP
 participant ":BackorderController" as BC
 participant ":NotificationService" as NS
