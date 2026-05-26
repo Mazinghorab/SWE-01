@@ -5,7 +5,7 @@ box "Actors"
     actor ":WarehouseManager" as Manager
 end box
 
-box "System"
+box " Controller Boundary"
     participant ":DashboardUI" as UI
     participant ":InventoryController" as IC
     participant ":IoTSensorService" as IoT
