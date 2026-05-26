@@ -5,7 +5,7 @@ box "Actors"
 actor ":Supplier" as Supplier
 end box
 
-box "System"
+box "Controller boundry"
 participant ":SupplierPortal" as SP
 participant ":AuditController" as AC
 participant ":TierRankingService" as TRS
