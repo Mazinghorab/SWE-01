@@ -5,7 +5,7 @@ box "Actors"
     actor ":Packer" as Packer
 end box
 
-box "System"
+box "Controller boundry"
     participant ":PackingUI" as UI
     participant ":PackingController" as PC
     participant ":SortToLightService" as STL
