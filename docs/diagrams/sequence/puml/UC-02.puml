@@ -5,7 +5,7 @@ box "Actors"
     actor ":WarehouseManager" as Manager
 end box
 
-box "System"
+box "controller boundary"
     participant ":StorageUI" as UI
     participant ":StorageController" as SC
     participant ":ZonalOptimizer" as ZO
